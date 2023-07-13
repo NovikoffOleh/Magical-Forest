@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Magical_Forest</title>
 
     <link rel="stylesheet" href="css/main.css" />
@@ -14,44 +16,57 @@
     <script src="js/app.js" defer></script>
   </head>
   <body>
-    <header class="main-header">
-      <div class="layers">
-        <div class="layer__header">
-          <div class="layers__caption">Завітайте до казки</div>
-          <div class="layers__title">Чарівний ліс</div>
-        </div>
-        <div
-          class="layer layers__base"
-          style="background-image: url(img/layer-base.png)"
-        ></div>
-        <div
-          class="layer layers__title"
-          style="background-image: url(img/layer-middle.png)"
-        ></div>
-        <div
-          class="layer layers__front"
-          style="background-image: url(img/layer-front.png)"
-        ></div>
+    <div class="wrapper">
+      <div class="content">
+        <header class="main-header">
+          <div class="layers">
+            <div class="layer__header">
+              <div class="layers__caption">Welcome to світ Аліси</div>
+              <div class="layers__title">Чарівний ліс</div>
+            </div>
+            <div
+              class="layer layers__base"
+              style="background-image: url(img/layer-base.png)"
+            ></div>
+            <div
+              class="layer layers__middle"
+              style="background-image: url(img/layer-middle.png)"
+            ></div>
+            <div
+              class="layer layers__front"
+              style="background-image: url(img/layer-front.png)"
+            ></div>
+          </div>
+        </header>
+
+        <article
+          class="main-article"
+          style="background-image: url(img/dungeon.jpg)"
+        >
+          <div class="main-article__content">
+            <h2 class="main-article__header">
+              Що відбувається у кролячій норі
+            </h2>
+            <p class="main-article__paragraph">
+              Засміявшись у свою хустку, Аліса помітила, що кроляча нора стала
+              незвичайно глибокою. Увійшовши в неї, вона здивовано переглянулася
+              навколо й побачила неймовірні речі: літаючі картоплини, говорящі
+              тварини та келихи, що змінювали розмір. Однак, серед усього цього
+              хаосу, Аліса почувала себе справжньою дівчинкою в країні, де мрії
+              стають реальністю.
+            </p>
+          </div>
+          <div class="copy">
+            <a
+              href="https://github.com/NovikoffOleh"
+              class="name"
+              target="_blank"
+            >
+              <p>© 2023 OlehNovikoff</p>
+            </a>
+          </div>
+        </article>
       </div>
-    </header>
-    <article
-      class="main-article"
-      style="background-image: url(img/dungeon.jpg)"
-    >
-      <div class="main-article__content">
-        <h2 class="main-article__header">Що відбувається у кролячій норі</h2>
-        <p>
-          Засміявшись у свою хустку, Аліса помітила, що кроляча нора стала
-          незвичайно глибокою. Увійшовши в неї, вона здивовано переглянулася
-          навколо й побачила неймовірні речі: літаючі картоплини, говорящі
-          тварини та келихи, що змінювали розмір...
-        </p>
-      </div>
-      <div class="copy">
-        <a href="https://github.com/NovikoffOleh" class="name" target="_blank">
-          <p>© 2023 OlehNovikoff</p>
-        </a>
-      </div>
-    </article>
+    </div>
   </body>
 </html>
