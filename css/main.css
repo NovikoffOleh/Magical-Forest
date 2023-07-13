@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+a{
+	text-decoration: none;
+}
+
 :root {
 	--index: calc(1vw + 1vh);
 	--text: #e7e7e0;
@@ -125,4 +129,8 @@ body {
 	opacity: .45;
 	font-size: calc(var(--index) * .75);
 	letter-spacing: calc(var(--index) / 37.5);
+	
+}
+.name{
+	color: #e7e7e0;
 }
